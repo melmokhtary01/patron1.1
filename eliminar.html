@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Eliminar</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="eliminar.ico" type="image/x-icon">
+  </head>
+  <body>
+    
+        <form  action="http://moralo.atwebpages.com/patrones/patron1/EliminarPatron1.php" method="POST">
+
+            <!--Buscar-->
+            <fieldset>
+                <legend><b>P1 a Eliminar:</b></legend>
+
+             <!-- Entre 5 y 10 alfanuméricos (solo letras minúsculas y números)-->
+            <label id="patern1">Entre 5 y 10 alfanuméricos (solo letras minúsculas y números)
+                <input required type="text" autofocus placeholder="aaabb12" name="P1" pattern="[a-z,0-9]{5,10}">
+            </label>
+            </fieldset>
+
+            <input type="submit" value="Borrar"><br> 
+            <p>--Info-- para volver al menú picha aquí <a href="indice.html">Menú</a></p> 
+
+            </form>
+
+    <iframe src="http://moralo.atwebpages.com/patrones/patron1/"> </iframe>
+
+  </body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    margin:20px auto;
+    background-color: lightblue;
+    width:60%;
+    height: 100vh;
+    padding:20px 30%;
+}
+input{
+    display:block;
+    border-color:green;
+    border-radius:10px;
+    
+}
+input[type="button"]{
+    border: 5px solid red;
+    border-radius:50px;
+    background-color: lightsalmon;
+    color:green;
+    margin:20px;
+}
+fieldset input{
+    display: block;
+    
+}
+.btnResetear{
+    display: inline;    
+    background-color: lightsalmon;
+}
+
+.btnValidar{
+    display: inline;
+    background-color: rgb(68, 122, 120);
+}
+
+input:valid{
+color:blue;
+}
+input:invalid{
+color:red;
+}
+
+.patron1{
+    background-color: chocolate;
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+}
+
+iframe{
+    height: 50%;
+    width: 100%;
+}
+
+
+

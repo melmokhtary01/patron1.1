@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="raton.ico" type="image/x-icon">
+</head>
+<body>
+    
+        <form  action="http://moralo.atwebpages.com/patrones/patron1/ModificarPatron1.php" method="POST">
+
+            <!--Buscar-->
+            <fieldset>
+                <legend><b>P1 a modificar:</b></legend>
+
+             <!-- Entre 5 y 10 alfanuméricos (solo letras minúsculas y números)-->
+            <label id="patern1">Entre 5 y 10 alfanuméricos (solo letras minúsculas y números)
+                <input required type="text" autofocus placeholder="aaabb12" name="P1" pattern="[a-z,0-9]{5,10}">
+            </label>
+            </fieldset>
+            
+            <!--Cambiar-->
+
+            <fieldset>
+                <legend><b>Valores a cambiar:</b></legend>
+
+                
+             <!-- 3 primeros caracteres letras mayúsculas, un carácter ( *,-), 3 siguientes número-->
+            <label id="patern2">3 primeros caracteres letras mayúsculas, un carácter ( *,-), 3 siguientes número
+                <input required type="text"  placeholder="ABC-231" name="P2" pattern="[A-Z]{3}[*,-][0-9]{3}">
+            </label>
+
+            <!--El primer carácter una letra mayúscula, el segundo una minúscula, el resto 5 números.-->
+            <label id="patern3">El primer carácter una letra mayúscula, el segundo una minúscula, el resto 5 números
+                <input required type="text"  placeholder="Ab12345" name="P3" pattern="[A-Z][a-z][0-9]{5}">
+            </label>
+
+            <!--Un solo número entre el 1 y el 5-->
+            <label id="patern4">Un solo número entre el 1 y el 5
+                <input required type="text"  placeholder="1-5" name="P4" pattern="[1-5]{1}">
+            </label>
+
+            <!--Número entre el 50 y el 55-->
+            <label id="patern5">Número entre el 50 y el 55
+                <input required type="text"  placeholder="50-55" name="P5" pattern="[50-55]{2}">
+            </label>
+
+            </fieldset>
+
+    
+            <!--Botones-->
+            <fieldset>
+                <legend><b>Botones</b></legend>
+                <input class="btnValidar" type="submit" value="insertar" name="submit">
+                <input  class="btnResetear" type="reset" value="Limpiar" name="reset">
+            </fieldset>
+           
+            <p>--Info-- para volver al menú picha aquí <a href="indice.html">Menú</a></p> 
+        </form>
+
+        <iframe src="http://moralo.atwebpages.com/patrones/patron1/">
+              
+        </iframe>
+        
+    
+</bBotones<>
+</html>
